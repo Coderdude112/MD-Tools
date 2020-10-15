@@ -11,7 +11,7 @@ These tools are made to work in the background and update MD links when they are
 ### Setup
 
 1. Open the variables.ini file.
-2. Edit the `notebook` and `alert_file variable  and save the file. Do **not** use quotes.
+2. Edit the `notebook` and `alert_file variable`  and save the file. Do **not** use quotes.
 3. Start the program by running the 'Link helper.py' file
 
 ---
