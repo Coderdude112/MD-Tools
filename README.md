@@ -13,6 +13,8 @@ Some other tools will only work if you run them (File appender.py, Search and re
 
 *Note:* The only files that are "auto tools" are Link_helper.py and File_deleted.py. These programs do not delete files, they alert you so you can delete them.
 
+*Note:* Currently MD Tools only supports direct links (Ex: `A:\Notebooks\!Typora`) not relative links (Ex: `..\Notebooks\!Typora`) I am working on support for these, and a script that will make all links relative
+
 1. Open the variables.ini file.
 2. Edit the `notebook` and `alert_file variable`  and save the file. Do **not** use quotes.
 3. Start the program:
