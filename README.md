@@ -6,6 +6,8 @@ Some other tools will only work if you run them (File appender.py, Search and re
 ### Prerequisites
 
 * Python 3+ - [Python 3](https://www.python.org/downloads/) must be installed (The latest version is fine)
+* win10toast - `pip install win10toast`
+* watchdog - `pip install watchdog`
 
 ---
 
