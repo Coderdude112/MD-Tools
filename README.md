@@ -16,7 +16,7 @@ Tools within the 'Manual tools' are tools that you only should run once (Such as
 
 *Note:* Currently MD Tools only supports direct links (Ex: `A:\Notebooks\!Typora`) not relative links (Ex: `..\Notebooks\!Typora`) I am working on support for these.
 
-Do **not** use quotes when setting any variables.
+Do **not** use quotes when setting any variables, spaces are OK.
 
 1. Open the variables.ini file.
 2. Set the `notebook_dir` variable to the base directory of your markdown notebook.
@@ -32,7 +32,8 @@ Do **not** use quotes when setting any variables.
 
 #### Globals
 
-These variables are used in most files. Paths / directories in the variables.ini file are never in quotes (Spaces are OK)
+These variables are used in most files. Paths / directories in the variables.ini file are never in quotes (Spaces are OK). 
+If you want to use the manual tools, it is recommended that you stop the auto tools running in the background (They should appear as `Python` in Task Manager) and then run the manual tools.
 
 | Variable name | Use / comment                                                |
 | ------------- | ------------------------------------------------------------ |
@@ -51,7 +52,7 @@ These variables are used in most files. Paths / directories in the variables.ini
 
 #### Auto_tools_variables-do_NOT_edit
 
-**DO NOT EDIT** these variables. This will cause issues
+**DO NOT EDIT** these variables. This will cause issues, as the auto tools read them really fast.
 
 | Variable name | Use / comment                                                |
 | ------------- | ------------------------------------------------------------ |
